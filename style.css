@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3{
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 800;
+}
+
+header{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5em;
+}
+
+main{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5em;
+}
+
+footer{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5em;
+}
+
+.mainImg{
+  width: 151px;
+  height: 143px;
+  border-radius: 10px;
+}
+
+#containImg{
+  display: flex;
+}
+
+#downloadFirst{
+  width: 193px;
+  height: 58px;
+  color: white;
+  background-color:#4D96A9 ;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+#downloadFirst span{
+  color: #8FE3F9;
+}
+
+#whatIsItButton{
+  margin-top: 20px;
+  background-color: #855FB1;
+  color: white;
+  width: 139px;
+  height: 58px;
+  border-radius: 25px;
+}
+
+#modernUse{
+  color: #4D96A9;
+  margin-top: 60px;
+}
+
+#downloadLast{
+  width: 193px;
+  height: 58px;
+  color: white;
+  background-color:#855FB1;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+#downloadLast span{
+  color: #D9B8FF;
+}
+
+@media screen and (min-width: 768px){
+  header{
+    width: 50%;
+  }
+}
